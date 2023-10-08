@@ -1,1 +1,1 @@
-# web-extension
+# web-extension for scaler open source
