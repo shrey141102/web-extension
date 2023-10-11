@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "name": "Timer Extension",
+  "version": "1.0",
+  "description": "Pomodoro Timer",
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["activeTab"]
+}
