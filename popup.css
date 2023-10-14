@@ -1,0 +1,39 @@
+/* Reset CSS */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none; /* Removes underline */
+  color: black; /* Changes link color */
+}
+
+a:hover {
+  color: red; /* Changes link color when mouse hovers over it */
+}
+
+body {
+  width: 300px;
+  height: 300px;
+  background-color: aliceblue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* Body CSS */
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.btn {
+  width: 100px;
+  height: 50px;
+  margin: 10px;
+}
